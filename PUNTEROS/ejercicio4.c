@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int strend(char *p
-           , char *t)
+int strend(char *p, char *t)
 {
     int cont=0;
     while(*s!='\0')
