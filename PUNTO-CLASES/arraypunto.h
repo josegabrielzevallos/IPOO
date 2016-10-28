@@ -10,11 +10,11 @@ class ArrayPoint
 
         ArrayPoint();
         ArrayPoint(int);
-        ArrayPoint(Point [], const int, int);
+        ArrayPoint(Point [], const int);
         ArrayPoint(const ArrayPoint &);
 
         void print();
-        void _push_back(const Point &);
+        void pushback(const Point &);
         void _insert(const int, const Point &);
         void _remove(const int);
         const int getSize()const ;
