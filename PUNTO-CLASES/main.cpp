@@ -1,7 +1,6 @@
 #include "Point.h"
 #include "ArrayPoint.h"
-#include "Vector.h"
-#include "VectorArray.h"
+
 
 int main()
 {
